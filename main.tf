@@ -1,6 +1,6 @@
 provider "local" {}
 
 resource "local_file" "demo" {
-  filename = "on-hello.txt"
+  filename = "hello.txt"
   content  = "on-Hello from Terraform via GitHub Actions!"
 }
